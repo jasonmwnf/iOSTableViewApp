@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		96D5A6161C61CFED00F7F860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A6151C61CFED00F7F860 /* main.m */; };
 		96D5A6191C61CFED00F7F860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A6181C61CFED00F7F860 /* AppDelegate.m */; };
-		96D5A61C1C61CFED00F7F860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A61B1C61CFED00F7F860 /* ViewController.m */; };
 		96D5A61F1C61CFED00F7F860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A61D1C61CFED00F7F860 /* Main.storyboard */; };
 		96D5A6211C61CFED00F7F860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A6201C61CFED00F7F860 /* Assets.xcassets */; };
 		96D5A6241C61CFED00F7F860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A6221C61CFED00F7F860 /* LaunchScreen.storyboard */; };
 		96D5A62F1C61CFED00F7F860 /* TableViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A62E1C61CFED00F7F860 /* TableViewAppTests.m */; };
 		96D5A63A1C61CFED00F7F860 /* TableViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A6391C61CFED00F7F860 /* TableViewAppUITests.m */; };
+		96D5A6491C61D2FA00F7F860 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A6481C61D2FA00F7F860 /* TableViewController.m */; };
+		96D5A64C1C61D35500F7F860 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A64B1C61D35500F7F860 /* TableViewCell.m */; };
+		96D5A6521C61D6CD00F7F860 /* Taipei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A64D1C61D6CD00F7F860 /* Taipei.jpg */; };
+		96D5A6531C61D6CD00F7F860 /* kingdomtower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A64E1C61D6CD00F7F860 /* kingdomtower.jpg */; };
+		96D5A6541C61D6CD00F7F860 /* Eiffel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A64F1C61D6CD00F7F860 /* Eiffel.jpg */; };
+		96D5A6551C61D6CD00F7F860 /* empire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A6501C61D6CD00F7F860 /* empire.jpg */; };
+		96D5A6561C61D6CD00F7F860 /* burj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A6511C61D6CD00F7F860 /* burj.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		96D5A6151C61CFED00F7F860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96D5A6171C61CFED00F7F860 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96D5A6181C61CFED00F7F860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96D5A61A1C61CFED00F7F860 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96D5A61B1C61CFED00F7F860 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		96D5A61E1C61CFED00F7F860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96D5A6201C61CFED00F7F860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D5A6231C61CFED00F7F860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 		96D5A6351C61CFED00F7F860 /* TableViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D5A6391C61CFED00F7F860 /* TableViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAppUITests.m; sourceTree = "<group>"; };
 		96D5A63B1C61CFED00F7F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D5A6471C61D2FA00F7F860 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		96D5A6481C61D2FA00F7F860 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		96D5A64A1C61D35500F7F860 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		96D5A64B1C61D35500F7F860 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		96D5A64D1C61D6CD00F7F860 /* Taipei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Taipei.jpg; sourceTree = "<group>"; };
+		96D5A64E1C61D6CD00F7F860 /* kingdomtower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kingdomtower.jpg; sourceTree = "<group>"; };
+		96D5A64F1C61D6CD00F7F860 /* Eiffel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eiffel.jpg; sourceTree = "<group>"; };
+		96D5A6501C61D6CD00F7F860 /* empire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire.jpg; sourceTree = "<group>"; };
+		96D5A6511C61D6CD00F7F860 /* burj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burj.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +116,10 @@
 			children = (
 				96D5A6171C61CFED00F7F860 /* AppDelegate.h */,
 				96D5A6181C61CFED00F7F860 /* AppDelegate.m */,
-				96D5A61A1C61CFED00F7F860 /* ViewController.h */,
-				96D5A61B1C61CFED00F7F860 /* ViewController.m */,
+				96D5A6471C61D2FA00F7F860 /* TableViewController.h */,
+				96D5A6481C61D2FA00F7F860 /* TableViewController.m */,
+				96D5A64A1C61D35500F7F860 /* TableViewCell.h */,
+				96D5A64B1C61D35500F7F860 /* TableViewCell.m */,
 				96D5A61D1C61CFED00F7F860 /* Main.storyboard */,
 				96D5A6201C61CFED00F7F860 /* Assets.xcassets */,
 				96D5A6221C61CFED00F7F860 /* LaunchScreen.storyboard */,
@@ -117,6 +132,11 @@
 		96D5A6141C61CFED00F7F860 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96D5A64D1C61D6CD00F7F860 /* Taipei.jpg */,
+				96D5A64E1C61D6CD00F7F860 /* kingdomtower.jpg */,
+				96D5A64F1C61D6CD00F7F860 /* Eiffel.jpg */,
+				96D5A6501C61D6CD00F7F860 /* empire.jpg */,
+				96D5A6511C61D6CD00F7F860 /* burj.jpg */,
 				96D5A6151C61CFED00F7F860 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,7 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D5A6541C61D6CD00F7F860 /* Eiffel.jpg in Resources */,
 				96D5A6241C61CFED00F7F860 /* LaunchScreen.storyboard in Resources */,
+				96D5A6561C61D6CD00F7F860 /* burj.jpg in Resources */,
+				96D5A6551C61D6CD00F7F860 /* empire.jpg in Resources */,
+				96D5A6531C61D6CD00F7F860 /* kingdomtower.jpg in Resources */,
+				96D5A6521C61D6CD00F7F860 /* Taipei.jpg in Resources */,
 				96D5A6211C61CFED00F7F860 /* Assets.xcassets in Resources */,
 				96D5A61F1C61CFED00F7F860 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D5A61C1C61CFED00F7F860 /* ViewController.m in Sources */,
 				96D5A6191C61CFED00F7F860 /* AppDelegate.m in Sources */,
+				96D5A64C1C61D35500F7F860 /* TableViewCell.m in Sources */,
+				96D5A6491C61D2FA00F7F860 /* TableViewController.m in Sources */,
 				96D5A6161C61CFED00F7F860 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
