@@ -7,6 +7,7 @@
 //
 
 #import "TableViewController.h"
+#import "TableViewCell.h"
 
 @interface TableViewController ()
 
@@ -22,6 +23,25 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    title = @[@"Burj Khalfifa",
+              @"Eiffel Tower",
+              @"Empire State Building",
+              @"Kingdom Tower",
+              @"Taipei 101",];
+    
+    description = @[@"Dubai, UAE",
+                    @"Paris, France",
+                    @"New York, USA",
+                    @"Jeddah, Saudi Arabia",
+                    @"Taipei, Taiwan",];
+    
+    image = @[@"burj.jpg",
+              @"Eiffel.jpg",
+              @"Empire.jpg",
+              @"kingdomtower.jpg",
+              @"Taipei.jpg",];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,24 +52,29 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return title.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    static NSString *cellIdentifier = @"Cell";
+    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+    int row = (int)[indexPath row];
+    
+    cell.cellTitle.text = title[row];
+    cell.cellDescription.text = description[row];
+    cell.CellImageView.image = [UIImage imageNamed:image[row]];
     
     return cell;
+    
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
