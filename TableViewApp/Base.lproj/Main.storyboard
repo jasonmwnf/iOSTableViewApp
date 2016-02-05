@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="00d-z2-b4Q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="00d-z2-b4Q">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--Table View Controller-->
@@ -42,6 +42,7 @@
                                     <outlet property="CellImageView" destination="6FN-cu-6o3" id="in6-8q-KPw"/>
                                     <outlet property="cellDescription" destination="oBe-ae-gYe" id="g3P-Bm-Sg7"/>
                                     <outlet property="cellTitle" destination="Qhk-uK-RFD" id="F2K-w1-6Lf"/>
+                                    <segue destination="PKO-C1-TAw" kind="show" identifier="ShowDetails" id="T43-yn-3vR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -56,6 +57,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TMR-ad-NUT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="514" y="400"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="B60-q2-Wm9">
+            <objects>
+                <viewController id="PKO-C1-TAw" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HQh-V6-A42"/>
+                        <viewControllerLayoutGuide type="bottom" id="idW-hC-cm0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3hj-BG-30i">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V8G-6K-qKO">
+                                <rect key="frame" x="20" y="72" width="374" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plc-kX-lA3">
+                                <rect key="frame" x="20" y="208" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fla-iE-ydt">
+                                <rect key="frame" x="20" y="237" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="detailDescription" destination="fla-iE-ydt" id="82r-ve-qkp"/>
+                        <outlet property="detailImageView" destination="V8G-6K-qKO" id="Wg2-wo-06x"/>
+                        <outlet property="detailTitle" destination="plc-kX-lA3" id="Tby-TJ-IrW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iXC-DK-379" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="400"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="U4I-ac-Sb5">
