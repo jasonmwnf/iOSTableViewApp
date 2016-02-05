@@ -15,4 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *detailTitle;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescription;
 @property (weak, nonatomic) IBOutlet UIImageView *detailImageView;
+
+@property (weak, nonatomic) IBOutlet UILabel *yearBuilt;
+@property (weak, nonatomic) IBOutlet UILabel *height;
+@property (weak, nonatomic) IBOutlet UILabel *cost;
+@property (weak, nonatomic) IBOutlet UILabel *record;
+
 @end
